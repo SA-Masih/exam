@@ -527,6 +527,26 @@ th {
   .Choose__img {
     margin-left: 123px;
     margin-top: 10px; }
+  .Choose__button {
+    font-size: 16px;
+    background: #5474fd;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 13px;
+    width: 225px; }
+  .Choose__button:hover {
+    background: red; }
+  .Choose__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .Choose__h4 {
+    color: #fff;
+    display: inline-block; }
 
 .Book {
   background-image: url("../Travel Agency-assets/Rectangle.png");
