@@ -1,0 +1,328 @@
+@import "normalize";
+@font-face {
+    font-family: 'josefin_sansbold';
+    src: url('../font/josefinsans-bold-webfont.woff2') format('woff2'), url('josefinsans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'josefin_sansregular';
+    src: url('../newfont/josefinsans-regular-webfont.woff2') format('woff2'), url('josefinsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aleoregular';
+    src: url('aleo-regular-webfont.woff2') format('woff2'), url('../aleo-regular/aleo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.Bhromaon {
+    background-image: url('../Travel Agency-assets/header.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    margin-bottom: -15;
+    &__header {
+        text-align: center;
+        color: #fff;
+    }
+    &__h2 {
+        font-size: 48px;
+        font-family: 'josefin_sansbold';
+    }
+    &__p {
+        font-size: 22px;
+        font-family: 'josefin_sansregular';
+    }
+    &__form {
+        text-align: center;
+        position: relative;
+    }
+    &__search {
+        width: 500px;
+        padding: 15px;
+        text-align: center;
+        font-family: 'josefin_sansbold';
+        font-size: 14px;
+        color: #d6d6d6;
+        position: relative;
+    }
+    &__button {
+        padding: 15px;
+        right: 317px;
+        margin-top: 2px;
+        width: 146px;
+        position: absolute;
+        margin-right: 20px;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        font-family: 'aleoregular';
+        color: #fff;
+        background: #5474fd;
+        background-image: url("../Travel Agency-assets/icon3.png");
+        background-repeat: no-repeat;
+        background-position: 110px;
+    }
+    &__Scroll {
+        text-align: center;
+        color: #FFF;
+        position: relative;
+    }
+    &__h6 {
+        font-size: 14px;
+        color: #fff;
+        font-family: 'josefin_sansregular';
+        margin-top: 108px;
+    }
+    &__at {
+        text-align: center;
+        font-size: 24px;
+        font-family: 'josefin_sansbold';
+        &::before {
+            content: "";
+            position: absolute;
+            height: 5px;
+            width: 5px;
+            border-top: 1 px solid #fff;
+            border-bottom: 1px solid #f;
+        }
+    }
+}
+.menue {
+    background: #5474fd;
+    margin: 15px;
+   margin-bottom:-15;
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__h1 {
+        color: #FFF;
+        font-size: 24px;
+    }
+    &__a {
+        text-decoration: none;
+        color: #FFF;
+        margin-left: 10px;
+        font-size: 14px;
+        font-family: 'aleoregular';
+    }
+}
+.Choose {
+    background-image: url("../Travel Agency-assets/Rectangleg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    margin-bottom:-15px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__text {
+        flex: 1;
+    }
+    &__h1 {
+        font-size: 36px;
+        color: #fff;
+        font-family: 'aleoregular';
+    }
+    &__p {
+        font-family: 'josefin_sansregular';
+        width: 450px;
+        color: #FFF;
+        font-size: 16px;
+    }
+    &__imgs {
+        flex: 1;
+    }
+    &__img {
+        margin-left: 123px;
+        margin-top: 10px;
+    }
+}
+.Book {
+    background-image: url("../Travel Agency-assets/Rectangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+     margin-bottom:-15px;
+    &__box {
+        width: 540px;
+        background: #2d2725;
+        opacity: 0.90;
+        height: 367px;
+        padding: 20px;
+        margin-top: 225px;
+        margin-bottom: 96px;
+    }
+    &__h6 {
+        font-size: 20px;
+        font-family: 'josefin_sansregular';
+        color: #fff;
+    }
+    &__h5 {
+        font-size: 20px;
+        color: #fff;
+        font-family: 'josefin_sansregular';
+    }
+    &__p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'josefin_sansregular';
+        width: 530px;
+    }
+    &__button {
+        padding: 10px;
+        width: 225px;
+        background: #496bfe;
+        font-size: 16px;
+        outline: none;
+        border: none;
+    }
+}
+.spain {
+    background-image: url("../Travel Agency-assets/water.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+     margin-bottom:-16px;
+    &__box {
+        width: 540px;
+        background: #2d2725;
+        opacity: 0.90;
+        height: 367px;
+        padding: 20px;
+        margin-top: 225px;
+        margin-bottom: 96px;
+       margin-left:auto;
+    }
+    &__h6 {
+        font-size: 20px;
+        font-family: 'josefin_sansregular';
+        color: #fff;
+    }
+    &__h5 {
+        font-size: 20px;
+        color: #fff;
+        font-family: 'josefin_sansregular';
+    }
+    &__p {
+        color: #fff;
+        font-size: 16px;
+        font-family: 'josefin_sansregular';
+        width: 530px;
+    }
+    &__button {
+        padding: 10px;
+        width: 225px;
+        background: #496bfe;
+        font-size: 16px;
+        outline: none;
+        border: none;
+    }
+}
+
+
+
+.Tourist{
+      background-image: url("../Travel Agency-assets/Rectangle3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    margin-bottom:-17px;
+    
+
+    &__h3{
+        text-align: center;
+        font-size: 36px;
+        color: #FFF;
+        font-family: 'aleoregular';
+
+    }
+
+    &__box{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:195px;
+    }
+
+    &__content{
+        width:661px;
+        height: 283px;
+        background: #333333;
+        padding:20px;
+    }
+
+    &__p{
+         font-family: 'aleoregular';
+         line-height:26px;
+       color: #FFF;
+       width:510px; 
+       font-size: 16px;
+    }
+
+    &__img{
+        
+    }
+
+
+    &__h5{
+        font-size: 20px;
+         font-family: 'josefin_sansregular';
+         color: #FFF;
+    }
+}
+
+.footer{
+    background:#232323;
+    margin:15px;
+    
+
+   &__box{
+        text-align:center;
+    }
+
+    &__h1{
+        font-size: 24px;
+         font-family: 'josefin_sansbold';
+         color: #FFF;
+          margin-bottom:0;
+    }
+
+    &__p{
+        color: #FFF;
+        font-size: 16px;
+        font-family: 'josefin_sansregular';
+        margin-top:0;
+       
+    }
+
+
+    &__a{
+        text-decoration: none;
+        margin-left:15px;
+    }
+}
+
+
